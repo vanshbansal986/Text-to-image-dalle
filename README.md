@@ -7,8 +7,7 @@ AI Generation Hub is a Streamlit-based web application that leverages the power 
 - **Text to Image Generation (DALL-E)**: Generate images from text prompts using OpenAI's DALL-E 3 model.
   - Customizable image size, quality, and style.
 - **Text to Image Generation (Stable Diffusion)**: Create images from text descriptions using the Stable Diffusion model.
-  - Adjustable resolution and quality settings.
-- **Image to Text**: Generate textual descriptions of uploaded images using a pre-trained image captioning model.
+  - Adjustable resolution and quality settings. Did not work because server couldnt handle the load.
 
 ## Installation
 
@@ -36,8 +35,6 @@ AI Generation Hub is a Streamlit-based web application that leverages the power 
 
 3. Use the sidebar to select the desired task:
    - Text to Image (DALL-E)
-   - Text to Image (Stable Diffusion)
-   - Image to Text
 
 4. Follow the on-screen instructions to input your text prompt or upload an image.
 
